@@ -1,0 +1,48 @@
+body {
+    background-color: floralwhite;
+}
+
+.information{
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: auto;
+    margin: 1.5%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;   
+    transition: all .4s ease-in-out;
+}
+
+.information:hover {
+    transform: scale(1.04);
+}
+
+.name {
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.number {
+    font-size: 20px;
+}
+
+img {
+    width: 80px;
+    height: 80px;
+    margin: auto 20px auto 10px;
+    border-radius: 50%;
+}
+
+.text-input {
+    width: 36%;
+    padding: 1%;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    margin: 1% auto 1% 31%;
+    font-size: 20px;
+    background-color: inherit;
+}
+
+input:focus {
+    outline: none;
+}
